@@ -1,119 +1,113 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Abu Jakaria Khandoker | Senior Front-End Engineer</title>
-  <meta name="description" content="Senior Front-End Developer specializing in building scalable, enterprise-level web solutions using modern frameworks and architectural best practices." />
-  
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abu Jakaria Khandoker | Front-End Developer</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
 </head>
-<body class="premium-dark"> 
-  <header class="site-header">
-    <div class="container">
-      <a href="#hero" class="logo">AJK<span class="logo-accent">.DEV</span></a>
-      <nav>
-        <a href="#about">Profile</a>
-        <a href="#tech-stack">Expertise</a>
-        <a href="#projects">Portfolio</a>
-        <a href="#contact">Connect</a>
+<body>
+  <header class="header">
+    <div class="container nav-container">
+      <h1 class="logo">AJK<span>.dev</span></h1>
+      <nav class="nav-menu">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#stack" class="nav-link">Stack</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
       </nav>
     </div>
   </header>
 
-  <main>
-    <section id="hero" class="hero-section">
-      <div class="container hero-content">
-        <p class="greeting">Hi, I'm Abu Jakaria Khandoker</p>
-        <h1>Crafting Modern & Accessible Web Experiences</h1>
-        <p>I am a Front-End Developer passionate about bringing creative designs to life with clean code and optimal performance.</p>
-        <div class="hero-actions">
-            <a href="#projects" class="button primary-button"><i class="fas fa-rocket"></i> Explore Portfolio</a>
-            <a href="mailto:your_email@example.com" class="button secondary-button"><i class="fas fa-paper-plane"></i> Initiate Contact</a>
+  <main class="main-content container">
+
+    <section class="section hero-block block-base">
+      <div class="hero-left">
+        <p class="intro">Hi, I'm Abu Jakaria Khandoker</p>
+        <h2 class="name">Building Interactive & Animated Web Experiences.</h2>
+        <p class="desc">A Front-End Developer who crafts digital world with a thoughtful magic and animated transitions using React and Vanilla JS.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary"><i class="fas fa-eye"></i> View Latest Work</a>
+          <a href="#contact" class="btn secondary"><i class="fas fa-handshake"></i> Contact Now</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <h3 class="block-title"><i class="fas fa-user-circle"></i> Who I Am</h3>
+        <h4 class="sub-title"><i class="fas fa-star"></i> Core Technologies</h4>
+        <div class="tech-grid">
+          <div class="tech-col">
+            <ul>
+              <li><i class="fas fa-check"></i> HTML (Semantic)</li>
+              <li><i class="fas fa-check"></i> CSS & SCSS</li>
+              <li><i class="fas fa-check"></i> Git & GitHub</li>
+            </ul>
+          </div>
+          <div class="tech-col">
+            <ul>
+              <li><i class="fas fa-check"></i> JavaScript (ES6+)</li>
+              <li><i class="fas fa-check"></i> REST APIs</li>
+              <li><i class="fas fa-check"></i> Performance Opt.</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
-    
-    <div class="container">
-      <section id="about" class="section-padding">
-        <h2 class="section-title">Professional Profile</h2>
-        <div class="about-grid">
-            <div class="profile-text">
-                 <p>I'm a 21-year-old CSE student and a self-driven Front-End enthusiast. My journey into web development began with a focus on core technologies, leading to proficiency in developing responsive and performance-optimized interfaces.</p>
-            <p>I firmly believe that the best web applications are simple to use, fast to load, and accessible to everyone. Currently, I am dedicated to mastering React.js to tackle complex, state-driven applications.</p>
-            <p>Seeking my first professional role where I can transform theoretical knowledge into real-world impact.</p>
-            <a href="CV.pdf" target="_blank" class="button secondary-button download-cv">Download CV</a> <p>I'm a 21-year-old CSE student and a self-driven Front-End enthusiast. My journey into web development began with a focus on core technologies, leading to proficiency in developing responsive and performance-optimized interfaces.</p>
-            </div>
-            <div class="profile-image">
-                <img src="profile-placeholder.jpg" alt="Abu Jakaria Khandoker Profile Picture">
-                <div class="image-border-glow"></div>
-            </div>
-        </div>
-      </section>
 
-     
-      <!-- Tech Stack -->
-      <section id="tech-stack" class="section-padding section-alt-bg">
-        <h2 class="section-title">Technical Stack</h2>
-        <div class="skills-grid">
-          <div class="skill-category">
-            <i class="fas fa-layer-group"></i>
-            <h3>Core Technologies</h3>
-            <ul>
-              <li>HTML5 (Semantic)</li>
-              <li>CSS3 (Grid, Flexbox, Animations)</li>
-              <li>JavaScript (ES6+)</li>
-              <li>Responsive Design</li>
-            </ul>
-          </div>
-          <div class="skill-category">
-            <i class="fas fa-tools"></i>
-            <h3>Frameworks & Tools</h3>
-            <ul>
-              <li>React.js (Learning)</li>
-              <li>Bootstrap / Tailwind CSS</li>
-              <li>Git / GitHub</li>
-              <li>VS Code</li>
-            </ul>
-          </div>
+    <section id="about" class="block-base about-block">
+      <h3 class="block-title"><i class="fas fa-info-circle"></i> Who I Am</h3>
+      <div class="about-content">
+        <div class="about-text">
+          <p>I'm a 24 year-old CSE student and a passionate front-end developer based in Dhaka. My focus is on crafting highly responsive, clean, and interactive user interfaces using modern JavaScript frameworks like React, and strong CSS skills.</p>
+          <p>I am actively seeking opportunities to contribute my skills to challenging web projects. Available for job offers, collaboration, or just a quick chat.</p>
+          <a href="Abu Jakaria Khandoker.pdf" class="btn primary small-btn" target="_blank">Download Full Resume</a>
         </div>
-      </section>
+        <div class="profile-img-container">
+  <div class="profile-glow-ring">
+    <img src="jakaria.png" alt="Abu Jakaria Khandoker" class="profile-img-round" />
+  </div>
+</div>
+      </div>
+    </section>
 
-      <!-- Projects Section -->
-      <section id="projects" class="section-padding">
-        <h2 class="section-title">Featured Projects</h2>
-        <div id="project-list" class="grid"></div>
-      </section>
+    <section id="projects" class="block-base projects-block">
+      <h3 class="block-title"><i class="fas fa-project-diagram"></i> Selected Projects</h3>
+      <div id="project-list" class="project-grid"></div>
+    </section>
 
-      <!-- Contact Section -->
-      <section id="contact" class="section-padding section-alt-bg">
-        <h2 class="section-title">Get In Touch</h2>
-        <p class="contact-subtext">Let's discuss your next project or career opportunity. Fill out the form below or connect with me directly.</p>
-        <form id="contact-form">
-          <input type="text" id="name" placeholder="Your Name" required>
-          <input type="email" id="email" placeholder="Your Email" required>
-          <textarea id="msg" placeholder="Tell me about your project or inquiry..." required></textarea>
-          <button type="submit" class="primary-button send-btn">Send Message</button>
-        </form>
-        <p id="status" class="form-status" role="alert"></p>
-        <div class="social-links">
-          <a href="https://github.com/MdAbuJakaria" target="_blank"><i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/abu-jakaria" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-          <a href="https://www.facebook.com/hm.jakaria.5454" target="_blank"><i class="fab fa-facebook"></i></a>
-          <a href="https://www.instagram.com/Abu_Jakaria_Khandoker" target="_blank"><i class="fab fa-instagram"></i></a>
-        </div>
-      </section>
-    </div>
+    <section id="contact" class="block-base contact-block">
+      <h3 class="block-title"><i class="fas fa-envelope"></i> Let's Connect</h3>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Message" required></textarea>
+        <button class="btn primary"><i class="fas fa-paper-plane"></i> Send Message</button>
+      </form>
+    </section>
+
+    <section id="stack" class="block-base social-stack-block">
+      <h3 class="block-title"><i class="fas fa-laptop-code"></i> My Tech Stack</h3>
+      <div class="stack-tags">
+        <span class="tag tag-primary">ReactJS</span>
+        <span class="tag tag-secondary">Vanilla JS</span>
+        <span class="tag tag-primary">SCSS/Tailwind</span>
+        <span class="tag tag-secondary">GitHub</span>
+      </div>
+
+      <h3 class="block-title social-title"><i class="fas fa-share-alt"></i> Follow Me</h3>
+      <div class="social-links">
+        <a href="https://github.com/abujakaria" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/abujakaria/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://facebook.com/hm.jakaria.5454" target="_blank"><i class="fab fa-facebook"></i></a>
+      </div>
+    </section>
+
   </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>&copy; 2025 Abu Jakaria Khandoker. All rights reserved.</p>
-      <p class="footer-note">Built with <i class="fas fa-heart" style="color:#e76f51;"></i> and Pure Code.</p>
-    </div>
+  <footer>
+    <p class="container footer-text">© 2025 Abu Jakaria Khandoker | Built with Precision and Passion.</p>
   </footer>
 
   <script src="script.js"></script>
